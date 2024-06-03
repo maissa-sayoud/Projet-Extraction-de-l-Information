@@ -1,0 +1,44 @@
+#Unigraph
+SIZE 1318 840
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME n
+DDATE n
+DFILE n
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+24
+"<E>" 36 321 1 2 
+"" 1217 325 0 
+"<subst>" 76 321 2 11 21 
+"<<\.>>" 943 469 1 4 
+"<NB>" 691 469 3 3 7 6 
+"(" 629 519 1 4 
+")" 788 518 1 7 
+"<< fois|\/jour|j|jour|nuit|matin|midi|soir|coucher|agitation|douleur|h|serum>>" 868 398 1 1 
+"<<[0-9A-Za-z:\/]>>+<PREP>" 464 469 4 5 7 4 12 
+"<<,|\.|mg>>" 375 321 1 11 
+"{S}+<subst>" 317 469 1 13 
+"<NB>" 171 321 4 9 12 17 7 
+"$![" 240 469 1 10 
+"$]" 419 469 1 8 
+"<<\.|_|\/>>+<E>" 1081 140 1 15 
+"<NB>" 954 140 3 14 7 1 
+"<MOT>+<<:>>+<NB>+<PREP>" 836 140 2 15 17 
+"$![" 626 140 1 19 
+"$]" 793 140 1 16 
+"{S}+<subst>" 691 140 1 18 
+"<MOT>+<<:>>+<NB>+<PREP>" 370 144 2 21 7 
+"$![" 160 144 1 23 
+"$]" 327 144 1 20 
+"{S}+<subst>" 225 144 1 22 
